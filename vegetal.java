@@ -1,4 +1,4 @@
-public class vegetal extends plantas{
+public class vegetal extends Flores{
     String autotrofos;
 
     public vegetal (String tipo, int tiempo, String nombre, String autotrofos){

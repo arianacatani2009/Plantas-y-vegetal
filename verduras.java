@@ -1,7 +1,7 @@
 public class verduras extends plantas{
     String autotrofos;
 
-    public verduras (String tipo, int tiempo, String nombre, String autotrofos){
+    public verduras (String tipo, int tiempo, String nombre){
         super(tipo,tiempo,nombre);
         this.autotrofos=autotrofos;
     }

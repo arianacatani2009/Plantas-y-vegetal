@@ -1,7 +1,7 @@
-public class Flores extends plantas{
+public class Flores extends verduras{
     String autotrofos;
 
-    public Flores(String tipo,int tiempo, String nombre,String autotrofos){
+    public Flores(String tipo,int tiempo, String nombre){
         super(tipo,tiempo,nombre);
         this.autotrofos=autotrofos;
     }
